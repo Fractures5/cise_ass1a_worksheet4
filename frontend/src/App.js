@@ -1,9 +1,13 @@
 import React from "react";
 
-import Home from "./pages/Home";
+/*import Home from "./pages/Home";
 import SEPractice from "./pages/SE-Practice";
 import SubmitArticle from "./pages/Submit-Article"; 
-import NotFoundPage from "./pages/404";
+import NotFoundPage from "./pages/404";*/
+
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
 
 const App = () =>  {
     return (
